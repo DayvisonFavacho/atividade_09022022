@@ -1,0 +1,33 @@
+div.letter{
+    border: 1px solid black;
+    margin: 40px auto;
+    width: 400px;
+}   
+
+div.letter h1:first-child{
+    font-size: 1.2em;
+    text-align: center;
+    background-color: #990800;
+    color: #FFF;
+    width: 420px;
+    left: -10px;
+    position: relative;
+}
+
+div.letter-content{
+    padding: 20px 10px 10px 10px;
+    text-align: center;
+}
+
+div.letter-actions{
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+    background-color: yellow;
+    min-width: calc(100% - 20px);
+
+}
+
+div.letter button.btn{
+    float: right;
+
+}
